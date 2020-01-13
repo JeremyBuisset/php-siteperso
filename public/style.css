@@ -6,5 +6,60 @@
 }
 
 html {
-	font-size:62.5%;
+	font-size:100%;
 }
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #7f3427;
+	color: ghostwhite;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: grey 2px solid;
+}
+
+#bar{
+	height: 40px;
+	width: 2px;
+	background-color: gray;
+}
+
+#nav{
+	width: 100%;
+	height: 50px;
+	background-color: #212121;
+	color: ghostwhite;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: grey 2px solid;
+}
+
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #212121;
+	color: ghostwhite;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#i2{
+	margin: 0 20px 0 20px;
+}
+
+input{
+	height: 30px;
+	width: 400px;
+}
+
+
